@@ -1,3 +1,23 @@
 @import url(reset.css);
 
+.clear {
+	clear: both;
+}
+
+body {
+	color: #404040;
+	text-align: left;
+	font-size: 1em;
+	background: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.head {
+	background: url(..img/header_main.jpg);
+	text-align: center;
+	background-size: cover;	
+	padding: 135px 20px 90px 20px;
+}
+
+
 
