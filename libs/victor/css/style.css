@@ -1,0 +1,55 @@
+body {
+    background-color: #BEBEBE;
+}
+
+
+.navbar-header {
+    height: 100px;
+}
+
+.navbar{
+    height: 51px;
+    background-color: #3C4C4C;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 1.2em;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+form {
+    float: right;
+    margin-top: 14px;
+}
+
+
+
+footer {
+    background-color: #3C4C4C;
+    margin: 50px 0;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright {
+    margin: 60px;
+}
+.navbar-text {
+    margin: 13px;
+}
+.navbar-text a {
+    padding: 15px;
+    color: #fff;
+}
+.navbar-text a:hover {
+    color: #121F0E;
+}
+.content {
+    width: 100%;
+    height: 500px;
+}
