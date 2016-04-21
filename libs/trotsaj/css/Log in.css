@@ -1,0 +1,34 @@
+.button{
+	border-radius: 500px;
+	border-color: black;
+	border-width: 3px;
+	width: 130px;
+	height: 35px;
+	color: #D3D3D3;
+	font-family: Trebuchet;
+	background-color: #483D8B;
+}
+	
+.button1{
+text-align: center;
+}
+.input{
+	width: 350px;
+	height: 30px;
+	border-radius: 5px;
+	border-width: 5px;
+	border-color: #191970;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+body{
+		background: url('wpapers_ru_MacBook-вскрытие.jpg');
+		background-attachment: fixed;
+		background-size: 100% 100%;
+	} 
+	form{
+		position: relative;
+		left: 450px;
+		top: 100px;
+
+}
