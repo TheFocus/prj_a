@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--Через регулярні вирази-->
+<html>
+<head>
+<link rel="stylesheet" href="css/Log in.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<meta charset="utf-8">
+	<title>test</title>
+</head>
+<body>
+<header class="header">
+<h1 class="h" >Winter is coming...</h1>
+<h2 class="h2">Join the battle</h2>
+</header>
+<script> 
+function LogIn(obj) {
+  var l = obj.login.value;
+  var p = obj.pass.value;
+  var l_pattern = /[0-9a-z]{4,15}/i;
+  var p_pattern = /[a-z]+[0-9]|[0-9]+[a-z]/i;
+  var prov1 = l_pattern.test(l);
+  var prov2 = p_pattern.test(p);
+  if(prov1==true && prov2==true && p.length>7){
+  window.location.href="index.html"
+  } 
+  else alert ("lala");
+  }
+</script> 
+<p><form name="login1">
+<table>
+<tr>
+<td><input name="login" class="input" placeholder="Login"></td>
+</tr>
+<tr>
+<td><input name="pass" class="input" placeholder="Password"></td>
+</tr>
+<tr class="button1"><td><input type="button" class="button" onClick="LogIn(login1);" value="Log In"></td></tr>
+</table>
+</form></p>
+
+</body>
+</html>
