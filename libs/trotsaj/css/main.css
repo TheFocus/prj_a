@@ -1,0 +1,58 @@
+.header{
+	background: linear-gradient(transparent 50%, #D3D3D3 50%),
+	linear-gradient(90deg, #778899 50%, transparent 50%);
+	background-size: 50px 50px;
+	text-align: center;
+	height: 150px;
+}
+.h{
+	padding: 20px;
+}
+
+.navigation_main{
+	background-color: #BDB76B;
+
+}
+.navigation1{
+	text-align: left;
+	word-spacing: 50px;
+	position: relative;
+    left: 200px;
+    top: 40px;
+    
+
+}
+.navigation2{
+	text-align: right;
+}
+.image{
+	width: 75px;
+	height: 75px;
+}
+.img_main_1{
+float: left;
+width: 250px;
+margin: 10px;
+}
+.img_main_2{
+float: right;
+width: 250px;
+margin: 10px;
+}
+.first_text_header{
+	text-align: center;
+}
+
+.img_main_3{
+	text-align: center;
+	}
+a{
+	text-decoration: none;
+	color: #FFEFD5;
+}
+body{
+	background-color: #CCFFFF;
+}
+.h1{
+padding: 70px;
+}
